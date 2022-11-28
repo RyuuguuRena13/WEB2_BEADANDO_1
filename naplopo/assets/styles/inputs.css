@@ -1,0 +1,45 @@
+.input {
+    display:block;
+    margin:10px auto;
+    padding:10px;
+    border-radius:4px;
+    font-family: 'Open Sans', sans-serif;
+}
+.input:focus {
+    outline:0;
+}
+.text-input {
+    border:1px solid var(--mid-ash-grey);
+}
+.text-input:focus {
+    border:1px solid var(--grey);
+    background-color:var(--lighter-ash-grey);
+}
+.btn {
+    background-color:var(--mid-ash-grey);
+    color:white;
+    border:1px solid var(--mid-brown);
+    cursor:pointer;
+}
+.btn:active {
+    background-color:var(--mid-brown);
+    border:1px solid var(--darker-brown);
+}
+.input10p {
+    width:10%;
+}
+.input20p {
+    width:20%;
+}
+.input30p {
+    width:30%;
+}
+.input40p {
+    width:40%;
+}
+.input50p {
+    width:50%;
+}
+.input80p {
+    width:80%;
+}
